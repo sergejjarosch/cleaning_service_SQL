@@ -6,6 +6,13 @@ public class Main {
     }
 
     /*ToDo
+    - Service definieren und preise setzen.
+    - Berechnung zum Quadratmeter und Stockwerke setzen
+    -# Standard UI Kalender finden.
+    -# Standard UI Input
+    - Anfrage mit den Daten zwischenspeichern.
+    - Wenn das Datum verfügbar ist wird die Anfrage in der Buchung gespeichert
+    - Datum wählen. wenn nicht verfügbar meldung!
 
      */
     public static void setCustomer(){
