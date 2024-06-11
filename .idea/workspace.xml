@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9b5d970-d444-4f96-9a1b-9089bbd2cf82" name="Changes" comment="innit getEmployees and setCustomers">
-      <change afterPath="$PROJECT_DIR$/src/services.java" afterDir="false" />
+    <list default="true" id="a9b5d970-d444-4f96-9a1b-9089bbd2cf82" name="Changes" comment="init Methode Service.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueryDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueryDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +26,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hg2otl8Ybw3RgPIwmJ8gvbxnPa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,6 +40,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -66,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718001577473</updated>
-      <workItem from="1718001578518" duration="11243000" />
+      <workItem from="1718001578518" duration="11990000" />
+      <workItem from="1718097344992" duration="7677000" />
     </task>
     <task id="LOCAL-00001" summary="innit getEmployees and setCustomers">
       <option name="closed" value="true" />
@@ -76,14 +80,34 @@
       <option name="project" value="LOCAL" />
       <updated>1718021771218</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init Methode Service.">
+      <option name="closed" value="true" />
+      <created>1718028924288</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718028924288</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="innit getEmployees and setCustomers" />
-    <option name="LAST_COMMIT_MESSAGE" value="innit getEmployees and setCustomers" />
+    <MESSAGE value="init Methode Service." />
+    <option name="LAST_COMMIT_MESSAGE" value="init Methode Service." />
   </component>
 </project>
