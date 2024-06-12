@@ -1,8 +1,10 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Services.serviceID();
+        //ArrayList<Integer> bookedServices = Services.serviceID();
+        getBookedServices();
     }
 
     /*ToDo
@@ -15,6 +17,15 @@ public class Main {
     - Datum wählen. wenn nicht verfügbar meldung!
 
      */
+
+    public static void getBookedServices(){
+        ArrayList<Integer> bookedServices = Services.serviceID();
+        System.out.println("** Kontrolle **");
+        System.out.println(bookedServices);
+        for (Integer services : bookedServices) {
+            System.out.println("Gebucht service ID: " + services);
+        }
+    }
     public static void setCustomer(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kundenname: ");

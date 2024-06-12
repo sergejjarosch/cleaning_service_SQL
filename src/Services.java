@@ -8,7 +8,8 @@ import java.util.Scanner;
 public class Services {
     //eingabe services in ein ArrayList
     // ArrayList wird itteriert und damit die eweilige ID des Cervices eingeschrieben
-    public static void serviceID(){
+    public static ArrayList<Integer> serviceID(){
+        ArrayList<Integer> numbers = new ArrayList<>();
         try{
             //Eingabe der IDs
             System.out.println("Folgende Dienstleistungen werden angeboten:\n" +
@@ -16,16 +17,24 @@ public class Services {
                     "2 = Boden wischen\n"+
                     "3 = Staub wischen\n"+
                     "durch komma getrennt bitte eingeben.");
+            Scanner scanner = new Scanner(System.in);
 
-            System.out.println("Folgender Service wurde gebucht:");
+            String input = scanner.nextLine();
+            String[] inputSplit = input.split(","); //Die zahle an den Kommas splitten
+            for (String serviceString : inputSplit ){
+                numbers.add(Integer.parseInt(serviceString.trim()));
+            }
 
         } catch (Exception e){
             e.printStackTrace();
             System.out.println("Geben Sie bitte erneut ein");
-            serviceID();
+            return serviceID();
         }
-
+        return numbers;
     }
+
+
+    /*
     public static void getServicesID(){
         try{
             Scanner scanner = new Scanner(System.in);
@@ -41,6 +50,7 @@ public class Services {
         }
     }
 
+     */
 
 
     /*ToDo
